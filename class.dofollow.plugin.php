@@ -34,7 +34,7 @@ class ExamplePlugin extends Gdn_Plugin {
     if( strstr($args['Mixed'], 'https://yourdomain.com/')) {
     {
     // Now we do some transformation
-    $args['Mixed'] = str_replace('nofollow', 'dofollow', $args['Mixed']);
+    $args['Mixed'] = str_replace('rel="nofollow"', '', $args['Mixed']);
     }
 
 }
