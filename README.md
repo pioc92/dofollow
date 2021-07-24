@@ -1,5 +1,5 @@
 # dofollow
-vanilla plugin to dofollow one domain in the forum
+vanilla forum plugin to dofollow one domain in the forum
 
 Make a folder named dofollow
 Place all the files in it
